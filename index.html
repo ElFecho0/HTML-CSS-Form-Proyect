@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+
+    <body>
+            <form class="cuadro-principal">
+                <div class="header">
+                    <h3>EVENT REGISTRATION FORM</h3>
+                </div>
+
+                <div class="body">
+                    <div class="Name">
+                        Name
+                        <input type="text" name="Fname" id="Fname" required placeholder="First Name"/>
+                        <input type="text" name="Lname" id="Lname" required placeholder="Last name"/>
+                    </div>
+                    <div class="company">
+                        Company
+                        <input type="text" name="company-input" id="company-input" required/>
+                    </div>
+                    <div class="email">
+                        E-mail
+                        <input type="email" name="email-input" id="email-input" required/>
+                    </div>
+                    <div class="phone">
+                        Phone
+                        <input type="text" name="phone-input" id="area-code" required placeholder="Area Code"/>
+                        <input type="text" name="phone-input" id="phone-input" required placeholder="Phone Number"/>
+                    </div>
+                    <div class="subject">
+                        Subject
+                        <select name="list" id="list">
+                            <option value="1">Choose option</option>
+                            <option value="2">Option 1</option>
+                            <option value="3">Option 2</option>
+                            <option value="4">Option 3</option>
+                        </select>
+                    </div>
+                    <div class="question">
+                        Are you an existing costumer?<br>
+                        <input  class="option-yes" type="radio" id="awnser-yes" name="awnser" value="Yes">
+                        <label for="awnser-yes">Yes</label>
+
+                        <input class="option-no" type="radio" id="awnser-no" name="awnser" value="No">
+                        <label for="awnser-no">No</label>
+                    </div>
+
+                    <div>
+                        <button type="submit" class="button"><b>REGISTER</b></button>
+                    </div>
+                </div>
+            </form>
+    </body>
+</html>
